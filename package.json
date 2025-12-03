@@ -1,0 +1,42 @@
+{
+  "name": "drw_app",
+  "version": "1.0.0",
+  "description": "Drawing application with real-time collaboration",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snk-git-hub/DRW_APP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/snk-git-hub/DRW_APP/issues"
+  },
+  "homepage": "https://github.com/snk-git-hub/DRW_APP#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@supabase/auth-helpers-nextjs": "^0.15.0",
+    "@supabase/ssr": "^0.8.0",
+    "@supabase/supabase-js": "^2.86.0",
+    "next": "^16.0.7",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.7",
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18",
+    "typescript": "5.9.3"
+  }
+}
